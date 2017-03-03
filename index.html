@@ -9,34 +9,103 @@
 </head>
 <body>
 
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
-  </div>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Taylor Maushardt</a>
+    </div>
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
   </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Who I am</h1>
+          <p>I am Taylor Maushardt and I am a student at UHMC.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I do</h1>
+          <p>I am a full time student with a part time job on the weekends.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What I like to do</h1>
+          <p>I like to hang out with friends and family on my time off.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="marketing">
+
+  <div class="container">
+    <div class="col-sm-4 col-md-4">
+      <span class="glyphicon glyphicon-music"></span>
+      <h3>HTML &amp; CSS</h3>
+      <p>I like to listen to music while I work on HTML &amp; CSS.</p>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <span class="glyphicon glyphicon-cloud"></span>
+      <h3>JavaScript</h3>
+      <p> I enjoy Javascript.</p>
+    </div>
+    <div class="col-sm-4 col-md-4">
+      <span class="glyphicon glyphicon-camera"></span>
+      <h3>Design</h3>
+      <p>I also enjoy designing.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h3>Get in touch.</h3>
+  <p>Get in touch with me through github at https://github.com/tm25</p>
+  
 
 
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </div>
 
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
-  </div>
+
   <!--
     Previous project placeholder ends
     (unused pieces will be deleted at the last task)
